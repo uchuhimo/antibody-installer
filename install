@@ -27,4 +27,5 @@ extract() {
 
 download
 extract || true
+rm -rf ~/usr/antibody
 mv -f "$TMPDIR"/antibody ~/usr/antibody
