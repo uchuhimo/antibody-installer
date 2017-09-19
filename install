@@ -27,5 +27,5 @@ extract() {
 
 download
 extract || true
-sudo mv -f "$TMPDIR"/antibody ~/usr/antibody
+mv -f "$TMPDIR"/antibody ~/usr/antibody
 which antibody
